@@ -71,7 +71,6 @@ const TenderingPage = () => {
           Next
         </button>
 
-        {/* Selected Count Indicator */}
         <div className="w-full flex items-center justify-center space-x-2">
           {[...Array(maxSelected)].map((_, index) => (
             <span
